@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.MurdochMurdoch"
+version="0.0.1"
+name="Murdoch Murdoch"
+provider-name="AR_code">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Murdoch Murdoch</summary>
+  <description lang="en">Kodi plugin for Murdoch Murdoch videos</description>
+  <disclaimer lang="en">Kodi plugin for Murdoch Murdoch videos</disclaimer>
+  <assets>
+    <icon>murdoch_murdoch.jpg</icon>
+ </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
